@@ -31,19 +31,19 @@ const data = {
       location: "Yogyakarta, Indonesia",
     },
     {
-      position: "Full Stack Developer",
-      company: "Technopartner Indonesia",
-      type: "Intern",
-      start: "2018-06-01",
-      end: "2018-08-31",
-      location: "Yogyakarta, Indonesia",
-    },
-    {
       position: "Assistant Lecturer",
       company: "Universitas Gadjah Mada",
       type: null,
       start: "2018-08-01",
       end: "2018-12-31",
+      location: "Yogyakarta, Indonesia",
+    },
+    {
+      position: "Full Stack Developer",
+      company: "Technopartner Indonesia",
+      type: "Intern",
+      start: "2018-06-01",
+      end: "2018-08-31",
       location: "Yogyakarta, Indonesia",
     },
     {
