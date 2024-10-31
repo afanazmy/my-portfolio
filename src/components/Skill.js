@@ -4,7 +4,7 @@ import { Col, Row } from "antd";
 import { Link } from "./typography";
 import useBreakpoint from "antd/lib/grid/hooks/useBreakpoint";
 
-const Skill = ({ skills }) => {
+const Skill = ({ skills = [] }) => {
   const [twoDividedSkills, setTwoDividedSkills] = useState({});
   const [threeDividedSkills, setThreeDividedSkills] = useState({});
   const screen = useBreakpoint();

@@ -1,0 +1,185 @@
+{
+    "title": "Hi, I'm Afan Azmi",
+    "personalStatement": "A strong-analytical, hardworking, proficient in ReactJS code architecture and good coding practices for various software applications especially web based with 2 year experiences in professional job and side projects.",
+    "skillsIntro": "Here are few technos I've been working with:",
+    "skills": [
+        "ReactJS",
+        "Redux",
+        "Redux Saga",
+        "Redux Thunk",
+        "ElectronJS",
+        "NextJS",
+        "Laravel",
+        "Git",
+        "Jenkins"
+    ],
+    "experiences": [
+        {
+            "position": "Frontend Developer",
+            "company": "EQUAL System Indonesia",
+            "type": "Full Time",
+            "start": "2019-01-01",
+            "end": null,
+            "location": "Yogyakarta, Indonesia"
+        },
+        {
+            "position": "Full Stack Developer",
+            "company": "Technopartner Indonesia",
+            "type": "Intern",
+            "start": "2018-09-01",
+            "end": "2018-12-31",
+            "location": "Yogyakarta, Indonesia"
+        },
+        {
+            "position": "Assistant Lecturer",
+            "company": "Universitas Gadjah Mada",
+            "type": null,
+            "start": "2018-08-01",
+            "end": "2018-12-31",
+            "location": "Yogyakarta, Indonesia"
+        },
+        {
+            "position": "Full Stack Developer",
+            "company": "Technopartner Indonesia",
+            "type": "Intern",
+            "start": "2018-06-01",
+            "end": "2018-08-31",
+            "location": "Yogyakarta, Indonesia"
+        },
+        {
+            "position": "Assistant Lecturer",
+            "company": "Universitas Gadjah Mada",
+            "type": null,
+            "start": "2018-01-01",
+            "end": "2018-07-31",
+            "location": "Yogyakarta, Indonesia"
+        }
+    ],
+    "projects": [
+        {
+            "title": "SANTRI",
+            "subtitle": "Islamic Boarding School Financial System",
+            "start": "2023-12-22",
+            "end": "2024-06-01",
+            "stacks": [
+                {
+                    "name": "Laravel",
+                    "icon": "laravel"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "javascript"
+                }
+            ]
+        },
+        {
+            "title": "Kayon",
+            "subtitle": "Online Hotel Reservations",
+            "start": "2023-06-01",
+            "end": "2023-12-22",
+            "stacks": [
+                {
+                    "name": "ReactJS",
+                    "icon": "reactjs"
+                },
+                {
+                    "name": "ExpressJS",
+                    "icon": "expressjs"
+                }
+            ]
+        },
+        {
+            "title": "E-RKK",
+            "subtitle": "Digital Mailing and Signature System",
+            "start": "2023-02-01",
+            "end": "2023-02-22",
+            "stacks": [
+                {
+                    "name": "Laravel",
+                    "icon": "laravel"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "javascript"
+                }
+            ]
+        },
+        {
+            "title": "Kodeno",
+            "subtitle": "Financial Management System",
+            "start": "2022-01-24",
+            "end": "2022-05-24",
+            "stacks": [
+                {
+                    "name": "ReactJS",
+                    "icon": "reactjs"
+                },
+                {
+                    "name": "ExpressJS",
+                    "icon": "expressjs"
+                }
+            ]
+        },
+        {
+            "title": "SIMASDES",
+            "subtitle": "Village Asset Management System",
+            "start": "2020-07-01",
+            "end": "2020-12-01",
+            "stacks": [
+                {
+                    "name": "ReactJS",
+                    "icon": "reactjs"
+                },
+                {
+                    "name": "Laravel",
+                    "icon": "laravel"
+                }
+            ]
+        },
+        {
+            "title": "OnCert Himakomsi",
+            "subtitle": "Online Certificate Himakomsi (Student Organization of Computer and Information System)",
+            "start": "2018-12-01",
+            "end": "2019-02-28",
+            "stacks": [
+                {
+                    "name": "Laravel",
+                    "icon": "laravel"
+                },
+                {
+                    "name": "Javascript",
+                    "icon": "javascript"
+                }
+            ]
+        }
+    ],
+    "closing": {
+        "title": "Wanna say hi ?",
+        "content": "If you’re looking for a frontend developer, or just want to say “Hi”, please write to me at following email address."
+    },
+    "contact": {
+        "title": "Let’s talk here,",
+        "email": "hi@afanazmi.my.id"
+    },
+    "photo": "afan_azmi.jpg",
+    "links": [
+        {
+            "name": "LinkedIn",
+            "icon": "linkedin",
+            "url": "https://www.linkedin.com/in/muhammad-afan-azmi-726838126/",
+            "info": "Muhammad 'Afan 'Azmi"
+        },
+        {
+            "name": "GitHub",
+            "icon": "github",
+            "url": "https://github.com/afanazmy",
+            "info": "afanazmy"
+        },
+        {
+            "name": "Resume",
+            "icon": "link",
+            "url": "resumeUrl",
+            "info": "My Resume"
+        }
+    ]
+}

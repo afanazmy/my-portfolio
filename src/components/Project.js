@@ -6,8 +6,10 @@ import { Col, Grid, Row, Tooltip } from "antd";
 import Box from "./Box";
 import { Link, Text } from "./typography";
 
+import { ReactComponent as NextJS } from "../assets/images/nextjs.svg";
 import { ReactComponent as Laravel } from "../assets/images/laravel.svg";
 import { ReactComponent as ReactJS } from "../assets/images/reactjs.svg";
+import { ReactComponent as ExpressJS } from "../assets/images/expressjs.svg";
 import { ReactComponent as Javascript } from "../assets/images/javascript.svg";
 
 const { useBreakpoint } = Grid;
@@ -33,21 +35,23 @@ const JavascriptIcon = styled(Javascript)`
   }
 `;
 
-const group = (link) => {
+const group = (link, key) => {
   const comp = {
+    nextjs: <NextJS key={link.icon} style={{ marginRight: 6 }} />,
     laravel: <LaravelIcon key={link.icon} style={{ marginRight: 6 }} />,
     reactjs: <ReactJSIcon key={link.icon} style={{ marginRight: 6 }} />,
+    expressjs: <ExpressJS key={link.icon} style={{ marginRight: 6 }} />,
     javascript: <JavascriptIcon key={link.icon} style={{ marginRight: 6 }} />,
   };
 
   return (
-    <Tooltip title={link.name} placement="bottom">
+    <Tooltip key={key} title={link.name} placement="bottom">
       {comp[link.icon]}
     </Tooltip>
   );
 };
 
-const Project = ({ projects }) => {
+const Project = ({ projects = [] }) => {
   const [modified, setModified] = useState([]);
   const [hover, setHover] = useState(undefined);
   const screen = useBreakpoint(null);
@@ -130,7 +134,7 @@ const Project = ({ projects }) => {
                     <Text style={{ fontSize: 13 }}>{modif.subtitle}</Text>
                   </Col>
                   <Col span={24} style={{ marginTop: 24 }}>
-                    {modif.stacks.map((stack) => group(stack))}
+                    {modif.stacks.map((stack, i) => group(stack, i))}
                   </Col>
                 </Row>
               </Box>

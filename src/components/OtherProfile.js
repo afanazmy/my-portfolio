@@ -57,7 +57,7 @@ const group = (link) => {
   );
 };
 
-const OtherProfile = ({ links }) => {
+const OtherProfile = ({ links = [] }) => {
   const screen = useBreakpoint(null);
   const [visible, setVisible] = useState(false);
 

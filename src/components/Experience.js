@@ -7,7 +7,7 @@ import { Link, Text } from "./typography";
 
 const { useBreakpoint } = Grid;
 
-const Experience = ({ experiences }) => {
+const Experience = ({ experiences = [] }) => {
   const [modified, setModified] = useState([]);
   const [hover, setHover] = useState(undefined);
   const screen = useBreakpoint(null);
